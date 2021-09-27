@@ -17,5 +17,11 @@ namespace OpenOneFormToAnother
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 secondForm = new Form2();
+            secondForm.Show();
+        }
     }
 }
