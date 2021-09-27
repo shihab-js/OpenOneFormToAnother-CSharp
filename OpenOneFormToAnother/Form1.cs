@@ -19,8 +19,13 @@ namespace OpenOneFormToAnother
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //hide this form
             this.Hide();
+
+            //create second form object
             Form2 secondForm = new Form2();
+
+            //show the second form
             secondForm.Show();
         }
     }
